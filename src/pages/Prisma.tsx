@@ -22,7 +22,7 @@ function Box(props: ThreeElements['mesh']) {
       // eslint-disable-next-line react/jsx-props-no-spreading
       {...props}
       ref={ref}
-      scale={clicked ? 1.5 : 1}
+      scale={clicked ? 2 : 1}
       onClick={(event) => click(!clicked)}
       onPointerOver={(event) => hover(true)}
       onPointerOut={(event) => hover(false)}
